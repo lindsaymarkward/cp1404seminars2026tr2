@@ -28,6 +28,7 @@ def is_even(number):
 
 
 def is_even(number):
+    """Determine if number is even."""
     if number % 2 == 0:
         return True
     return False
